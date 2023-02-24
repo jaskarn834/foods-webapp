@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        padding:0px;
+        margin:0px;
+        background-color:#E8C7A6;
+      }
+      nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #d8a185;
+      }
+      nav li{
+        float: left;
+      }
+      nav li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav li a:hover{
+        background-color: #937458;
+      }
+
+      .subdiv a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+
+    </style>
+  </head>
+  <body>
+      <nav>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="subdiv">
+      <h2>Top 5 favourite foods</h2>
+      <ul>
+        <li><a href="#biryani">Biryani</a></li>
+        <li><a href="#cake">Cake</a></li>
+        <li><a href="#pizza">Pizza</a></li>
+        <li><a href="#choupsey">Choupsey</a></li>
+        <li><a href="#wings">Wings</a></li>
+      </ul>
+      </div>
+      <div class="images">
+        <div id="biryani"><img src="https://grillstreetrestaurant.com/wp-content/uploads/2022/05/alfam-briyani.jpg" class="fooditem"></div>
+        <p class="labels">Biryani</p>
+        <div id="cake"><img src="https://cdn.shopify.com/s/files/1/0516/2831/0688/products/0I4A5473copy_1000x1000.jpg?v=1641167976" class="fooditem"/></div>
+        <p class="labels">Cake</p>
+        <div id="pizza"><img src="https://b.zmtcdn.com/data/pictures/chains/1/18412861/fe8c80fa162c790264a597b45e7e6580.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="fooditem"/></div>
+        <p class="labels">Pizza</p>
+        <div id="choupsey"><img src="https://www.whiskaffair.com/wp-content/uploads/2017/09/DSC2952.jpg" class="fooditem"/></div>
+        <p class="labels">Choupsey</p>
+        <div id="wings"><img src="https://www.foodnetwork.com/content/dam/images/food/fullset/2013/11/20/0/CCFOO108_sticky-honey-soy-chicken-wings-recipe_s4x3.jpg" class="fooditem"/></div>
+        <p class="labels">Wings</p>
+      </div>
+    </div>
+  </body>
+</html>
